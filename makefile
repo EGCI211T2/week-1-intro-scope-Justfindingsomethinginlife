@@ -1,8 +1,10 @@
+NAME=golf
+
 compile: main.c 
-	 gcc main.c -o soda
+	 gcc main.c -o $(NAME)
 
 run: soda
-	 ./soda
+	 ./$(NAME)
 
 clean: soda
-	 rm soda
+	 rm $(NAME)
